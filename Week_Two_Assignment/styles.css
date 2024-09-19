@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #09090b;
     color: #333;
     padding: 20px;
     line-height: 1.6;
@@ -29,7 +29,7 @@ p {
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border: 2px solid #2c3e50;
     padding: 10px;
@@ -74,12 +74,12 @@ footer ul li {
     margin-right: 15px;
 }
 
-footer a {
+a {
     text-decoration: none;
-    color: #0073b1; /* LinkedIn blue color */
+    color: #0073b1;
     font-weight: bold;
 }
 
-footer a:hover {
+a:hover {
     text-decoration: underline;
 }
