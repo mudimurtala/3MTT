@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudi's Sign-up Form Project</title>
+    <style>
+        @font-face {
+            font-family: 'NorseBold';
+            src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            outline: 2px solid yellow;
+        }
+
+
+        html, body {
+            height: 100%; /* Ensure the body and html take up full height */
+            margin: 0; /* Remove default margins */
+            background-color: black;
+        }
+
+        section {
+            display: flex; /* Set flexbox layout */
+            flex-direction: row; /* Side-by-side layout */
+            height: 100vh; /* Full viewport height */
+            width: 60%; /* Set section width to 60% of the viewport */
+            margin: 0 auto; /* Center the section horizontally */
+        }
+
+        .right_side, .left_side {
+            height: 100%; /* Ensure full height for both sides */
+        }
+
+        .right_side {
+            flex: 2;
+            background-color: lightgrey;
+            background-image: url('images/background_image.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .left_side {
+            flex: 3;
+            background-color: #f9fafb;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left_side div {
+            flex: 1; /* Make each div take equal height */
+            border: 1px solid #000; /* Just for visibility */
+            box-sizing: border-box;
+        }
+
+        .top_div p {
+            background-color: #f9fafb;
+            font-size: 0.8em;
+            line-height: 1.2; /* Better readability */
+            color: black;
+            text-align: start;
+            font-family: Arial, sans-serif;
+            font-weight: bolder;
+            margin: 0;
+            padding-top: 80px;
+            padding-left: 25px;
+        }
+
+        .top_div strong {
+            font-family: sans-serif; /* Use the custom font for emphasis */
+        }
+
+        .top_div em {
+            color: darkred;
+            font-style: italic;
+        }
+
+        .transparent_div {
+            width: 100%; /* Same width as right_side */
+            background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+            padding: 10px;
+            box-sizing: border-box; /* Ensure padding is inside the width */
+            margin-top: 17vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .transparent_div img {
+            width: 60px;
+            height: auto;
+            margin-right: 0px;
+        }
+
+        .transparent_div span {
+            color: white;
+            margin: 0;
+            font-size: 4em;
+            font-family: 'NorseBold', sans-serif; /* Apply the custom font */
+        }
+
+        .photo_credit {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 0.5em;
+        }
+
+        .photo_credit a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid white; /* White underline */
+            padding-bottom: 0px;
+        }
+
+        .photo_credit a:hover {
+            opacity: 0.8; /* Slight hover effect */
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="right_side">
+            <div class="transparent_div">
+                <img src="images/odin-logo.png" alt="Odin Logo">
+                <span>ODIN</span>
+            </div>
+            <div class="photo_credit">
+                Photo by <a href="https://unsplash.com/@jupp">Jonathan Kemper</a> on <a href="https://unsplash.com">Unsplash</a>
+            </div>
+        </div>
+        <div class="left_side">
+            <div class="top_div">
+                <p>
+                    <strong>
+                        This is not a real online service! You know you need something <br>
+                        like this in your life to help you realize your deepest dreams. <br>
+                        Sign up <em>now</em> to get started. <br> <br>You <em>know</em> you want to.
+                    </strong>    
+                </p>
+            </div>
+            <div class="middle_div"></div>
+            <div class="bottom_div"></div>
+        </div>
+    </section>
+</body>
+</html>
+
