@@ -1,3 +1,17 @@
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}
+
+
+html, body {
+    height: 100%; /* Ensure the body and html take up full height */
+    margin: 0; /* Remove default margins */
+    background-color: #f7f8fc;
+}
+
+
 * {
     margin: 0;
 }
@@ -16,10 +30,14 @@ h2 {
 }
 
 form {
-    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, 0);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
     height: 80vh;
     width: 25%;
-    padding: 50px;
+    margin: 20px auto;
+    padding: 40px;
+    line-height: 1.6;
 }
 
 .row, .f, .check, .btn, .footer, .next {
@@ -45,6 +63,12 @@ form {
     color: #fff;
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0, 0);
     cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: deepskyblue;
+    transform: translateY(-2px);
+    transition: all o.2s ease;
 }
 
 .f {
@@ -87,6 +111,11 @@ form {
     margin-right: 10px;
     border-radius: 50px;
     font-size: 20px;
+}
+
+.footer .fa:hover {
+    background-color: lightgray;
+    transition: 0.3s;
 }
 
 .footer .fa-google {
