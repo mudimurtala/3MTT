@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.base_con {
+    display: flex;
+}
+
+.base_con1 {
+    background-color: #1aebb6;
+    height: 100vh;
+    width: 40%;
+}
+
+.base_con2 {
+    background-color: #fefefe;
+    height: 100vh;
+    width: 100%;
+}
+
+.r-child {
+    display: flex;
+    position: absolute;
+    margin: 3rem;
+    top: 0; left: 0; right: 0;
+    box-shadow: 0 .5rem 4rem rgb(0, 0, 0, .2)
+}
+
+.r-left {
+    background-color: #1aebb6;
+    height: 80vh;
+    width: 37%;
+}
+
+.r-right {
+    background-color: #fefefe;
+    height: 80vh;
+    width: 100%;
+}

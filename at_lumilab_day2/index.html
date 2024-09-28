@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        form {
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            height: 50vh;
+            width: 25%;
+            margin: 20px auto;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        .row input {
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid rgb(176, 175, 175);
+            border-radius: 5px;
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <div class="base_con">
+        <div class="base_con1">
+
+        </div>
+        <div class="base_con2">
+            <div class="r-child">
+                <div class="r-left"></div>
+                <div class="r-right">
+                    <form action="">
+                        <label for="email">Email</label>
+                        <div class="row">
+                            <input type="email" name="email" id="email" aria-label="Email" placeholder="Enter your email">
+                        </div>
+
+                        <label for="password">Password</label>
+                        <div class="row">
+                            <input type="password" name="password" id="password" aria-label="Password" placeholder="Enter your password">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
