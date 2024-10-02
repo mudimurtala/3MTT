@@ -19,3 +19,17 @@ header3.textContent = "I'm a blue h3!";
 header3.style.cssText = "color: blue;";
 
 container.appendChild(header3);
+
+const myDiv = document.createElement("div");
+myDiv.style.backgroundColor = "pink";
+myDiv.style.border = "3px solid black";
+
+const theH1 = document.createElement("h1");
+theH1.textContent = "I'm in a div";
+myDiv.appendChild(theH1);
+
+const newPara = document.createElement("p");
+newPara.textContent = "ME TOO!";
+myDiv.appendChild(newPara);
+
+container.appendChild(myDiv);
