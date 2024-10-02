@@ -7,23 +7,22 @@
 </head>
 <body>
     <div id="container">
-        <div class="display"></div>
-        <div class="controls"></div>
+        <body>
+            <h1>THE TITLE OF YOUR WEBPAGE</h1>
+            <div id="container"></div>
+          </body>
     </div>
 
       
     <script>
-        // selects the #container div (don't worry about the syntax, we'll get there)
+        // your JavaScript file
         const container = document.querySelector("#container");
 
-        // selects the first child of #container => .display
-        console.dir(container.firstElementChild);
+        const content = document.createElement("div");
+        content.classList.add("content");
+        content.textContent = "This is the glorious text-content!";
 
-        // selects the .controls div
-        const controls = document.querySelector(".controls");
-
-        // selects the prior sibling => .display
-        console.dir(controls.previousElementSibling);
+        container.appendChild(content);
 
     </script>
 </body>
