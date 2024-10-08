@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="con">
+        <span id="display"></span>
+        <div class="row">
+            <input type="number" placeholder="Enter first number" id="firstNumber">
+        </div>
+
+        <div class="row">
+            <input type="text" placeholder="Enter sign" id="sign">
+        </div>
+
+        <div class="row">
+            <input type="number" placeholder="Enter second number" id="secondNumber">
+        </div>
+        <button id="btn">=</button>
+    </div>
+
+    <script>
+        const myBtn = document.getElementById("btn");
+
+        myBtn.addEventListener('click', function() {
+            var display = document.getElementById('display');
+            var firstNumber = document.getElementById('firstNumber').value;
+            var sign = document.getElementById('sign').value;
+            var secondNumber = document.getElementById('secondNumber').value;
+
+
+            if (sign == '+') {
+                display.innerHTML = parseInt(firstNumber) + parseInt(secondNumber);
+            } else if (sign == '-') {
+                display.innerHTML = parseInt(firstNumber) - parseInt(secondNumber);
+            } else if (sign == '*') {
+                display.innerHTML = parseInt(firstNumber) * parseInt(secondNumber);
+            } else if (sign == '/') {
+                display.innerHTML = parseInt(firstNumber) / parseInt(secondNumber);
+            } else {
+                display.innerHTML = 'Error!';
+            }
+        })
+    </script>
+</body>
+</html>
