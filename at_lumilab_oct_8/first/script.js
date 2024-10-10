@@ -21,6 +21,7 @@ document.getElementById('my_form').addEventListener('submit', function(event) {
     }
 });
 
+
 function showError(message, inputId) {
     const errorElement = document.createElement('div');
     errorElement.className = 'error-message';
@@ -31,6 +32,7 @@ function showError(message, inputId) {
     const parent = inputField.parentNode;
     parent.insertBefore(errorElement, inputField);
 }
+
 
 function clearErrors() {
     const errors = document.querySelectorAll('.error-message');
