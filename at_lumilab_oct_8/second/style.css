@@ -129,10 +129,10 @@ input::placeholder {
 
 .facebook-btn i {
     background-color: white;
-    color: #1877F2; /* Facebook blue for the "f" */
+    color: #1877F2;
     font-size: 1.2em;
     padding: 5px;
-    border-radius: 50%; /* Rounded border */
+    border-radius: 50%;
     margin-right: 10px; /* Space between icon and text */
     border: 1px solid #1877F2; /* Border around the icon */
     width: 30px; /* Icon box width */
