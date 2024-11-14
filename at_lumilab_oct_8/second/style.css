@@ -24,12 +24,12 @@ body {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px; /* Add space between title and form fields */
+    margin-bottom: 20px;
     font-size: 2em;
 }
 
 .row {
-    margin-bottom: 15px; /* Space between input fields */
+    margin-bottom: 15px;
 }
 
 input[type="email"], input[type="password"] {
