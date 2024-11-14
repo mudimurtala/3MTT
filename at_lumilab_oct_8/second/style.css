@@ -45,9 +45,9 @@ input::placeholder {
 }
 
 .forgot-password {
-    text-align: center; /* Align text to center */
+    text-align: center;
     font-size: 0.9em;
-    color: lightblue; /* Light blue color for the text */
+    color: lightblue;
     margin-top: -10px; /* Adjust the margin to position it closer */
 }
 
