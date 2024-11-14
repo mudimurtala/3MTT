@@ -64,7 +64,7 @@ input::placeholder {
 }
 
 .login-btn:hover {
-    background-color: darkblue; /* Darken the button when hovered */
+    background-color: darkblue;
 }
 
 .signup-text {
@@ -74,8 +74,8 @@ input::placeholder {
 }
 
 .signup-text a {
-    color: blue; /* Blue color for "Signup" link */
-    text-decoration: none; /* Remove underline from link */
+    color: blue;
+    text-decoration: none;
 }
 
 .signup-text a:hover {
