@@ -56,11 +56,11 @@ input::placeholder {
     padding: 10px;
     font-size: 1em;
     background-color: blue;
-    color: white; /* White text */
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px; /* Add space above the button */
+    margin-top: 20px;
 }
 
 .login-btn:hover {
