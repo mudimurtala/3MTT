@@ -133,10 +133,10 @@ input::placeholder {
     font-size: 1.2em;
     padding: 5px;
     border-radius: 50%;
-    margin-right: 10px; /* Space between icon and text */
-    border: 1px solid #1877F2; /* Border around the icon */
-    width: 30px; /* Icon box width */
-    height: 30px; /* Icon box height */
+    margin-right: 10px;
+    border: 1px solid #1877F2;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
