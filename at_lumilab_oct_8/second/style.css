@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red; /* Remove later when done */
+    outline: 2px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,10 +16,10 @@ body {
 .form_container {
     height: auto;
     width: 80%;
-    max-width: 400px; /* Restrict max width of form container */
+    max-width: 400px;
     background-color: beige;
     border-radius: 10px;
-    padding: 20px; /* Add padding inside the form container */
+    padding: 20px;
 }
 
 h2 {
